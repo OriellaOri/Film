@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>NewsLetter</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="stile.css" />
+    <!-- JS-->
+    <script src="film.js"></script>
+</head>
+<body onload="check()">
+    <!-- barra di navigazione -->
+    <nav>
+        <a href="homepage.html">Home</a>
+        &nbsp;
+        <a href="schedatecnica.html">Scheda Tecnica</a>
+        &nbsp;
+        <a href="news.html"> Newsletter!</a>
+    </nav>
+
+
+    <!--form -->
+    <div id="formnews">
+        <form>
+            &nbsp;
+            <div id="nameForm">
+                <label>Nome</label> <br />
+                <!-- evento onKeyUp che si attiva quando l'utente rilasia un tasto dalla tastiera-->
+                <input id="name" type="text" placeholder="Inserisci il tuo nome" required="required" onkeyup="controllo(this)" />
+
+                <br /><br />
+
+                <label>Inserisci una tua valutazione!</label> <br />
+                <textarea rows='5' cols='50' name='areatesto' placeholder="Facci sapere cosa ne pensi"> </textarea>
+            </div>
+
+            <br />
+            <input id="btnSubmit" class="btn" name="campo1" type="button" value="Subscribe" onclick="save()" disabled="disabled" />
+            <input id="btnunsub" class="btn" name="invio" type="button" value="Unsubscribe" onclick="cancella()" style="display:none" />
+
+        </form>
+    </div>
+
+    <!-- footer -->
+    <footer>
+        <p>Made by Oriella Vullo</p>
+    </footer>
+
+</body>
+</html>

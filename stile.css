@@ -1,0 +1,97 @@
+﻿body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #FFD8CC;
+}
+nav {
+    background-color: hotpink;
+    color: antiquewhite;
+    padding: 10px;
+    width: 100%;
+    margin: 0;
+    left: 0;
+}
+    nav a {
+        text-decoration: none;
+    }
+nav a:hover{
+    background-color:white;
+    color:hotpink;
+    padding:10px;
+}
+nav a:link{
+    color:#E0AFEE;
+}
+nav a:visited{
+    color:#FFD8CC;
+
+}
+#navbar {
+    width: 100%;
+}
+#video , #info{
+    margin-top:50px;
+    display:flex;
+    align-content:center;
+    justify-content:center;
+}
+table{
+    border: 5px solid hotpink;
+    width: 50%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 5px solid hotpink;
+}
+#trama {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+    #trama p {
+        font-style: italic;
+        text-align:justify;
+    }
+    #trama h3 {
+        text-align: center;
+        color: hotpink;
+    }
+#imgscheda {
+    display: flex;
+    justify-content: center;
+    padding-bottom:7%;
+}
+img {
+    max-width: 800px;
+    max-height: 400px;
+}
+#loc{
+    margin-right:5px;
+}
+label{
+    color:hotpink;
+    font-weight:bold;
+}
+.btn {
+    background-color: hotpink;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+}
+    .btn:hover {
+        background-color:white;
+        color: hotpink;
+    }
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: hotpink;
+    color: white;
+    text-align: center;
+}
